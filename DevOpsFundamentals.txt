@@ -1,0 +1,119 @@
+######################
+#DevOps
+######################
+
+Keywords:
+
+- 2-Pizza teams => Jeff Bezos (Amazon CEO)
+- "You build it! You run it!"
+- "It worked on my machine" syndrome
+- State of DevOps reports
+- Shift Left
+- MVP => Minimum Viable Product
+- ALM => Application Lifecycle Management
+- Environment Types
+  - On-Premise (Data Centers)
+  - Private Cloud
+  - Public Cloud
+
+- Agile
+  - Feedback loops (iterations)
+  - Sprints
+  - Focuses on Small incremental changes (MVP)
+- Deployment Without Downtime
+- Deployment Strategies
+  - Blue/Green
+  - Rolling Updates
+  - Canary Deployment
+
+- Infrastructure-as-Code
+- Compliance-as-Code
+- Security-as-Code
+
+
+=========================
+Course Agenda:
+=========================
+
+- Fundamentals of DevOps
+- SCM / VCS using Git
+- CI / CD using Jenkins
+- Testing Frameworks
+- Configuration Management [Puppet and Ansible]
+- Containers [Docker / Docker Swarm / Kubernetes]
+- Monitoring using Nagios
+- DevOps on Cloud
+
+
+=========================
+DevOps Industry Experts:
+=========================
+
+- Patrick Debois
+- Martin Fowler
+- Jene Kim (The Phoenix Project, The DevOps Handbook)
+- Mark Hornbeek
+- Jez Humble
+
+**************************
+
+20% => Tools and technology
+80% => Culture
+
+**************************
+
+- SDLC
+  - Waterfall Model
+        - Longer TAT
+        - Errors are discovered late
+        - Lesser productivity
+        - Can't go back
+        - Very late engagement with End Users
+        - Less flexible
+
+  - Agile
+    - Scrum
+    - Xtreame programming
+    - Kanban
+
+**************************
+
+Agile Feedback Loop:
+Dev=>testing
+
+DevOps Feedback Loop:
+Dev=>test=>deploy=>maintain=>Monitor
+
+**************************
+
+Microservices => Dedicated teams
+
+
+DevSecOps
+**************************
+
+Shift Left:
+
+Dev => test => Pre-Prod => Think about Security => Prod => maintain => Monitor
+
+Dev => Think about Security => test => Pre-Prod => Prod => maintain => Monitor
+
+**************************
+
+
+
+
+
+References:
+
+https://linuxjourney.com/
+https://d1.awsstatic.com/whitepapers/AWS_DevOps.pdf
+https://d1.awsstatic.com/whitepapers/DevOps/practicing-continuous-integration-continuous-delivery-on-AWS.pdf
+
+DevOps + OS + Networking + Web Servers (Apache/Tomcat/Nginx/IIS)
+
+
+
+
+
+.
