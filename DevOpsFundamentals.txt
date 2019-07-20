@@ -103,7 +103,6 @@ Dev => Think about Security => test => Pre-Prod => Prod => maintain => Monitor
 
 
 
-
 References:
 
 https://linuxjourney.com/
@@ -113,6 +112,12 @@ https://d1.awsstatic.com/whitepapers/DevOps/practicing-continuous-integration-co
 DevOps + OS + Networking + Web Servers (Apache/Tomcat/Nginx/IIS)
 
 
+
+Action Items:
+
+1. Register to any cloud provider of your choice
+2. Create 2 Ubuntu 16.04 Linux VMs, who are talking to each other. (ping/telnet/ssh)
+3. Create a GitHub account
 
 
 
