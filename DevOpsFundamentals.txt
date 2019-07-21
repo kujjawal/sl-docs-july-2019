@@ -101,8 +101,6 @@ Dev => Think about Security => test => Pre-Prod => Prod => maintain => Monitor
 **************************
 
 
-
-
 References:
 
 https://linuxjourney.com/
