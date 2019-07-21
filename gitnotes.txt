@@ -2,25 +2,134 @@
 # VCS using Git
 ######################
 
+Keywords:
+
+.deb => debian, Ubuntu, Suse
+.rpm => RHEL, CentOS, Fedora
+
+Software Development after application has been released:
+  - Features/Enhancement
+  - Bug-fixes/hot-fixes
+- Service Packs (Microsoft) / Bundle release (VMware ESXi) / Patch release (in Oracle)
+
+
+Agenda:
+
+- Why SCM/VCS?
+- Distributed vs Centralized
+- Git Introduction
+- Installation and Configuration
+- Standard Operations in Git => Git Commands
+
+
+SCM => Source Code Management
+VCS => Version Control System
 
 Centralized => SVN, TFS, Accurev, Perforce, Clear Case
 Distributed => Git, Mercurial, Bazaar,
-
 
 Linux => RedHat, Ubuntu, Debian, Suse
 Git => GitLab, BitBucket, GitHub, CodeCommit, SmartGit, TortoiseGit.
 
 Licenses: MIT, Apache 2.0
 
+GitHub  => Public Repos
+        => Private Repos
+
+SVN Trunk = GIT Master = TFS Main
+SVN Commit = Git Push
+
+*************************
+
+Why SCM/VCS?
+
+  - Collaboration
+  - Centralized Code Management
+  - Versioning
+  - Automatic backups
+  - Branching capabilities (Parallel Development)
+  - Auditing (investigation)
+
+*************************
+
+Types of VCS:
+
+  Local (Filesystem)         => SCCS, RCS
+  Centralized                => SVN, TFS, Accurev, Perforce
+  Distributed                => Git, Mercurial
+
+Centralized vs Distributed:
+- In Centralized VCS, you need to be connected to the Server in order to perform any operation. Whereas that is not needed in case of Git DVCS.
+- In CVCS you need to have a Centralized server. Whereas, thats not needed in a DVCS.
+
+
+=============================
+Installation and Configuration
+=============================
+
+Official page: https://git-scm.com/
+
+Installation Commands:
+
+sudo apt-get install git ## Ubuntu/Debian
+sudo yum install git  ## CentOS/RHEL
+
+For Windows or Mac, follow instructions given on the official Git page.
+
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+=============================
+Git Commands
+=============================
+
+git init
+git status
+git add <filename>
+git add . (git add *)
+git commit -a -m "Your commit message"
+  -a => add/stage
+  -m => commit message
+git log
+git clone https://github.com/sk12k/test-dev.git
+git push
+git pull
+git pull <remotename> <branchname>
+git pull origin master
+git pull = git fetch + git merge
+git remote
+git remote -v
+git remote add testdev https://github.com/sk12k/test-dev.git
+Pull vs Clone => Clone is first time, Pull/Push is for all subsequent operations to keep your repository in Sync.
+
+=============================
+Branching and Merging
+=============================
+
+Why Branching?
+  - Parallel Development
+  - Isolated sandboxed environments for coding and development.
+
+Commands:
+git branch          => to see all the existing branches along with the current branch
+git branch fa       => create a new branch with name "fa"
+git checkout fa     => Switch to branch "fa"
+git checkout -b fa  => create a new branch "fa" and switch to it.
+
+## Merge fa branch with Master
+git checkout master
+git merge fa
+
+## Merge Master with FA branch
+git checkout fa
+git merge master
 
 
 
 
+References:
 
-
-
-
-
+https://git-scm.com/
 
 
 
