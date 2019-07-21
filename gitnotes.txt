@@ -124,12 +124,33 @@ git merge fa
 git checkout fa
 git merge master
 
+=============================
+Merge Conflicts
+=============================
+
+***Always do "git pull" before every "git push"***
+
+
+- Merge 2 branches with conflicting changes
+- Push to a remote branch with conflicting changes
+
+
+<<<<<<< HEAD
+This line was added on tz-master
+=======
+This line was added on GitHub
+>>>>>>> 2380bb618a995bae9e3bed94d960ab276597cdae
+
+
 
 
 
 References:
 
 https://git-scm.com/
+https://www.atlassian.com/git/tutorials/merging-vs-rebasing
+https://git-scm.com/book/en/v2/Git-Branching-Rebasing
+
 
 
 
