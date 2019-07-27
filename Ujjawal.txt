@@ -1,0 +1,25 @@
+###############################
+File created for pull request.
+###############################
+
+1. If there is no branch available in the repository, we need to run the complete push command.
+
+#Error Received when I ran "git push" command.
+
+git push
+fatal: The current branch Ujjawal27-07-2019 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin Ujjawal27-07-2019
+
+Running the suggested command worked.
+
+
+
+
+
+
+
+
+
+-Ujjawal.
